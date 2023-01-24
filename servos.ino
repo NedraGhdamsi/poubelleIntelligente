@@ -22,8 +22,8 @@ float duration, dis;
 #include <addons/RTDBHelper.h>
 
 /* 1. Define the WiFi credentials */
-#define WIFI_SSID "Marwa's Galaxy A12"
-#define WIFI_PASSWORD "54842454"
+#define WIFI_SSID "wifi"
+#define WIFI_PASSWORD "*****"
 
 // For the following credentials, see examples/Authentications/SignInAsUser/EmailPassword/EmailPassword.ino
 
@@ -157,15 +157,7 @@ else
         
 }
 
-/*if (Firebase.ready() && (millis() - sendDataPrevMillis > 15000 || sendDataPrevMillis == 0))
-    {
-        sendDataPrevMillis = millis();
 
-        FirebaseJson json;
-        json.setDoubleDigits(3);
-        json.add("ouvrir",x );
-
-        Serial.printf("Set json... %s\n", Firebase.RTDB.setJSON(&fbdo, "/test/json", &json) ? "ok" : fbdo.errorReason().c_str());*/
 
       
 }
